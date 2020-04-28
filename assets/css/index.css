@@ -11000,4 +11000,16 @@
  .list-group-item h6 {
    color: inherit;
  }
- 
+
+ .ctr-content {
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+ #sml_logo {
+  width: 20%;
+ }
+
+ #sml_icon {
+   max-width: 35px;
+ }
