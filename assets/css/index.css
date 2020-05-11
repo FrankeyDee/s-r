@@ -11002,14 +11002,40 @@
  }
 
  .ctr-content {
-   flex-direction: row;
-   justify-content: space-between;
+  align-items: flex-start;
  }
 
  #sml_logo {
-  width: 20%;
+  width: 40%;
  }
 
  #sml_icon {
    max-width: 35px;
  }
+
+.topbar {
+  align-items: baseline;
+  column-count: 4;
+}
+
+.banner_message {
+  color: white;
+  justify-content: center;
+}
+
+.left-logo {
+    /* padding: 0; */
+    margin-inline-end: auto;
+}
+
+.menu-nav {
+  font-size: x-large;
+}
+
+.nav {
+  align-items: baseline;
+}
+
+.main-body {
+  grid-auto-rows: 100px;
+}
